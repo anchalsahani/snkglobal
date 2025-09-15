@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Navbar from "./components/Navbar";
+// Import Hauora Sans via @fontsource
+import "@fontsource/hauora-sans"; // default weight 400
+import "@fontsource/hauora-sans/700.css"; // optional bold
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -19,14 +23,13 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased font-hauora`}
       >
+        <Navbar />
         {children}
       </body>
     </html>

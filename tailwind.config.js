@@ -1,10 +1,10 @@
 module.exports = {
   theme: {
     extend: {
-      colors: {
-        background: 'var(--background)',
-        foreground: 'var(--foreground)',
+      fontFamily: {
+        hauora: ["Hauora Sans", "sans-serif"], // <--- now usable via className="font-hauora"
       },
     },
   },
+  plugins: [],
 };

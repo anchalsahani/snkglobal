@@ -1,7 +1,12 @@
-export default function Home() {
+import Hero from "./components/Hero";
+import PoetryList from "./components/PoetryList"; // import your poetry list
+
+export default function HomePage() {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-red-600">
-      <h1 className="text-5xl font-bold text-white">Hello World</h1>
-    </div>
+    <main>
+      <Hero />
+      <PoetryList /> {/* Display your poetry list on homepage */}
+      {/* You can add other sections here */}
+    </main>
   );
 }
