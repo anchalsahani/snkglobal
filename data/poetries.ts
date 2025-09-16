@@ -45,11 +45,21 @@ is not me.
   {
     id: 2,
     date: "July 23, 2024",
-    title: "Pretty little lies",
+    title: "Not a Love Poem",
     excerpt:
-      "If someday someone asks me why I keep writing so much, I’ll tell them… not about how you took me out from the cave of my dark metaphoric thoughts, to push me into the light…",
+      "You taught me how to fall in love and fall apart at the same time…",
     content:
-      "If someday someone asks me why I keep writing so much, I’ll tell them… not about how you took me out from the cave of my dark metaphoric thoughts, to push me into the light…\n\n[Full poem content here]",
+`You taught me how to fall in love and fall apart at the same time. Now, my eyes sing the way poets scream in their rhyme. I sit here, staring at my wounds, longing to be with you every time. I light up a cigarette, write poems in ash, and count stars while taking another glass of wine.
+
+Oh, to be a poet, but I don't want to write poetry anymore, over pain, love, and life, because these things left me on the shore. I'm drowning slowly, waves of solitude taking me in. I'm getting punished for—I don't remember which sin.
+
+My hands tremble at every word, but for you, I write. Your absence haunts me, making my life dark from bright. I back up to your favorite place, bathed in whispers of the trees, where you built castles in the clouds and chased dreams on velvet knees.
+
+I saw oceans in your eyes and depth in your words. The mole on your chin plays the role of the swords. I wrote a lot of poetry, read multiple poems, but none of them described beauty the way you did. Butterflies appear everywhere you put your feet.
+
+In the pursuit of getting enlightenment, I started to believe in God. For someday when you will come, I will stop doing discord. I'm tired of asking questions whose answers I don't find. This isn't a love poem, just to remind.
+
+~anchal`,
     slug: "pretty-little-lies",
   },
   {
