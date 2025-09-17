@@ -72,14 +72,4 @@ In the pursuit of getting enlightenment, I started to believe in God. For someda
       "The silence between us is louder than the storms, echoing through the chambers of my restless heart…\n\n[Full poem content here]",
     slug: "silent-echoes",
   },
-  {
-    id: 4,
-    date: "September 1, 2024",
-    title: "Unwritten Chapters",
-    excerpt:
-      "There are words I never dared to speak, yet they bleed quietly across the pages of my unfinished stories…",
-    content:
-      "There are words I never dared to speak, yet they bleed quietly across the pages of my unfinished stories…\n\n[Full poem content here]",
-    slug: "unwritten-chapters",
-  },
 ];
