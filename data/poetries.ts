@@ -62,14 +62,4 @@ In the pursuit of getting enlightenment, I started to believe in God. For someda
 ~anchal`,
     slug: "pretty-little-lies",
   },
-  {
-    id: 3,
-    date: "August 10, 2024",
-    title: "Silent Echoes",
-    excerpt:
-      "The silence between us is louder than the storms, echoing through the chambers of my restless heart…",
-    content:
-      "The silence between us is louder than the storms, echoing through the chambers of my restless heart…\n\n[Full poem content here]",
-    slug: "silent-echoes",
-  },
 ];
