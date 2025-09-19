@@ -10,7 +10,7 @@ export interface Poetry {
 export const poetries: Poetry[] = [
   {
     id: 1,
-    date: "September 15, 2024",
+    date: "September 19, 2024",
     title: "Grief",
     excerpt:
       "Grief is love for me, the way it stays and waits for me to come back every time…",
