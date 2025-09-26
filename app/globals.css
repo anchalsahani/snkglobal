@@ -1,12 +1,78 @@
+/* -------------------------------------------
+   🌿 GLOBAL STYLESHEET (globals.css)
+   Elegant Dual-Font Setup: Playfair + Georgia
+   ------------------------------------------- */
+
+/* Import Tailwind First */
 @import "tailwindcss";
 
-:root {
-    --background: #00994D1A;
-    --foreground: #00994d; /* keep text green even in dark mode */
-  }
+/* Import Playfair Display (Google Font) */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
 
-body {
+/* -------------------------------------------
+   🎨 CSS VARIABLES
+   ------------------------------------------- */
+:root {
+  --background: #00994D1A; /* light green tint */
+  --foreground: #00994d;   /* deep green text */
+
+  /* Font Variables */
+  --font-heading: "Playfair Display", serif;
+  --font-body: Georgia, "Times New Roman", serif;
+}
+
+/* -------------------------------------------
+   🧱 GLOBAL RESET
+   ------------------------------------------- */
+html, body {
+  margin: 0;
+  padding: 0;
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-hauora, "Hauora Sans", sans-serif);
+  font-family: var(--font-body);
+  font-weight: 400;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* -------------------------------------------
+   🔤 TYPOGRAPHY
+   ------------------------------------------- */
+
+/* Headings → Playfair Display */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  color: var(--foreground);
+  line-height: 1.2;
+  margin-bottom: 0.5em;
+}
+
+/* Paragraphs, Poems, Articles → Georgia */
+p, blockquote, article, section, div {
+  font-family: var(--font-body);
+  color: var(--foreground);
+}
+
+/* Optional: Italic style for poems or verses */
+.poem, blockquote {
+  font-style: italic;
+  letter-spacing: 0.2px;
+}
+
+/* Links */
+a {
+  color: var(--foreground);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: opacity 0.2s ease;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+/* Smooth transitions for theme elements */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease;
 }

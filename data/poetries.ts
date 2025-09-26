@@ -13,7 +13,7 @@ export const poetries: Poetry[] = [
     date: "September 19, 2024",
     title: "Grief",
     excerpt:
-      "Grief is love for me, the way it stays and waits for me to come back every time…",
+      "Grief is love for me, the way it stays and waits for me to come…",
     content: `Grief, 
  is love for me, 
 the way it stays and waits for me to come back every time, and the surreal, stupid thought of leaving it behind.

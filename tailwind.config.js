@@ -1,10 +1,15 @@
+// tailwind.config.js
 module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        hauora: ["Hauora Sans", "sans-serif"], // <--- now usable via className="font-hauora"
+        playfair: ['"Playfair Display"', 'serif'],
+      },
+      colors: {
+        background: '#00994D1A',
+        foreground: '#00994d',
       },
     },
   },
   plugins: [],
-};
+}
